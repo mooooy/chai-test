@@ -2,7 +2,7 @@ import type { VNode } from '@cycle/dom';
 import xs, { Stream } from 'xstream';
 import type { DOMSource } from '@cycle/dom';
 
-const { div, button, h1, p, span } = require('@cycle/dom');
+import { div, button, h1, p, span } from '@cycle/dom';
 
 export interface CounterManagerSources {
   DOM: DOMSource;

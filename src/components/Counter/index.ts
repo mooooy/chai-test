@@ -1,8 +1,7 @@
 import type { VNode } from '@cycle/dom';
 import xs, { Stream } from 'xstream';
 import type { DOMSource } from '@cycle/dom';
-
-const { div, button, span } = require('@cycle/dom');
+import { div, button, span } from '@cycle/dom';
 
 export interface CounterProps {
   initialCount?: number;
